@@ -1,0 +1,2384 @@
+local EnvixityXQuerNuker = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local AutoBuy = Instance.new("Frame")
+local TextButton = Instance.new("TextButton")
+local TextButton_2 = Instance.new("TextButton")
+local TextButton_3 = Instance.new("TextButton")
+local TextButton_4 = Instance.new("TextButton")
+local TextButton_5 = Instance.new("TextButton")
+local TextButton_6 = Instance.new("TextButton")
+local TextButton_7 = Instance.new("TextButton")
+local Credits = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local TextLabel_2 = Instance.new("TextLabel")
+local TextLabel_3 = Instance.new("TextLabel")
+local TextLabel_4 = Instance.new("TextLabel")
+local TextLabel_5 = Instance.new("TextLabel")
+local TextLabel_6 = Instance.new("TextLabel")
+local TextLabel_7 = Instance.new("TextLabel")
+local TextLabel_8 = Instance.new("TextLabel")
+local SilentAim = Instance.new("Frame")
+local TextButton_8 = Instance.new("TextButton")
+local TextButton_9 = Instance.new("TextButton")
+local TextButton_10 = Instance.new("TextButton")
+local TextButton_11 = Instance.new("TextButton")
+local TextButton_12 = Instance.new("TextButton")
+local TextButton_13 = Instance.new("TextButton")
+local TextButton_14 = Instance.new("TextButton")
+local TextButton_15 = Instance.new("TextButton")
+local Aimlock = Instance.new("Frame")
+local TextButton_16 = Instance.new("TextButton")
+local TextButton_17 = Instance.new("TextButton")
+local TextButton_18 = Instance.new("TextButton")
+local TextButton_19 = Instance.new("TextButton")
+local TextButton_20 = Instance.new("TextButton")
+local TextButton_21 = Instance.new("TextButton")
+local TextButton_22 = Instance.new("TextButton")
+local TextButton_23 = Instance.new("TextButton")
+local TextButton_24 = Instance.new("TextButton")
+local OpenAimlockFrame = Instance.new("TextButton")
+local OpenSilentAimFrame = Instance.new("TextButton")
+local OpenFunFrame = Instance.new("TextButton")
+local OpenAutoBuyFrame = Instance.new("TextButton")
+local OpenAnimationFrame = Instance.new("TextButton")
+local OpenTeleportFrame = Instance.new("TextButton")
+local OpenTargetFrame = Instance.new("TextButton")
+local OpenAutoFarmFrame = Instance.new("TextButton")
+local OpenPremiumFrame = Instance.new("TextButton")
+local OpenExtraStuffFrame = Instance.new("TextButton")
+local OpenEspFrame = Instance.new("TextButton")
+local OpenFovFrame = Instance.new("TextButton")
+local OpenCreditsFrame = Instance.new("TextButton")
+local TextLabel_9 = Instance.new("TextLabel")
+local TextLabel_10 = Instance.new("TextLabel")
+local Fov = Instance.new("Frame")
+local TextButton_25 = Instance.new("TextButton")
+local TextButton_26 = Instance.new("TextButton")
+local TextButton_27 = Instance.new("TextButton")
+local TextButton_28 = Instance.new("TextButton")
+local TextButton_29 = Instance.new("TextButton")
+local TextButton_30 = Instance.new("TextButton")
+local TextButton_31 = Instance.new("TextButton")
+local Fun = Instance.new("Frame")
+local TextButton_32 = Instance.new("TextButton")
+local TextButton_33 = Instance.new("TextButton")
+local TextButton_34 = Instance.new("TextButton")
+local TextButton_35 = Instance.new("TextButton")
+local TextButton_36 = Instance.new("TextButton")
+local TextButton_37 = Instance.new("TextButton")
+local TextButton_38 = Instance.new("TextButton")
+local TextButton_39 = Instance.new("TextButton")
+local TextButton_40 = Instance.new("TextButton")
+local Target = Instance.new("Frame")
+local TextButton_41 = Instance.new("TextButton")
+local TextButton_42 = Instance.new("TextButton")
+local TextButton_43 = Instance.new("TextButton")
+local TextButton_44 = Instance.new("TextButton")
+local TextButton_45 = Instance.new("TextButton")
+local TextButton_46 = Instance.new("TextButton")
+local TextButton_47 = Instance.new("TextButton")
+local AutoFarm = Instance.new("Frame")
+local TextButton_48 = Instance.new("TextButton")
+local TextButton_49 = Instance.new("TextButton")
+local TextButton_50 = Instance.new("TextButton")
+local TextButton_51 = Instance.new("TextButton")
+local TextButton_52 = Instance.new("TextButton")
+local Teleport = Instance.new("Frame")
+local TextButton_53 = Instance.new("TextButton")
+local TextButton_54 = Instance.new("TextButton")
+local TextButton_55 = Instance.new("TextButton")
+local TextButton_56 = Instance.new("TextButton")
+local TextButton_57 = Instance.new("TextButton")
+local TextButton_58 = Instance.new("TextButton")
+local TextButton_59 = Instance.new("TextButton")
+local TextButton_60 = Instance.new("TextButton")
+local TextButton_61 = Instance.new("TextButton")
+local Animation = Instance.new("Frame")
+local TextButton_62 = Instance.new("TextButton")
+local Esp = Instance.new("Frame")
+local TextButton_63 = Instance.new("TextButton")
+local TextButton_64 = Instance.new("TextButton")
+local TextButton_65 = Instance.new("TextButton")
+local TextButton_66 = Instance.new("TextButton")
+local TextButton_67 = Instance.new("TextButton")
+local TextButton_68 = Instance.new("TextButton")
+local TextButton_69 = Instance.new("TextButton")
+local TextButton_70 = Instance.new("TextButton")
+local ExtraStuff = Instance.new("Frame")
+local TextButton_71 = Instance.new("TextButton")
+local TextButton_72 = Instance.new("TextButton")
+local TextButton_73 = Instance.new("TextButton")
+local TextButton_74 = Instance.new("TextButton")
+local TextButton_75 = Instance.new("TextButton")
+local Premium = Instance.new("Frame")
+local TextButton_76 = Instance.new("TextButton")
+local TextButton_77 = Instance.new("TextButton")
+local TextButton_78 = Instance.new("TextButton")
+local TextButton_79 = Instance.new("TextButton")
+local TextButton_80 = Instance.new("TextButton")
+local TextButton_81 = Instance.new("TextButton")
+local TextButton_82 = Instance.new("TextButton")
+local TextButton_83 = Instance.new("TextButton")
+local TextButton_84 = Instance.new("TextButton")
+local UICorner = Instance.new("UICorner")
+
+EnvixityXQuerNuker.Name = "[☄️]Envixity X Quer Nuker"
+EnvixityXQuerNuker.Parent = game.CoreGui
+EnvixityXQuerNuker.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Frame.Parent = EnvixityXQuerNuker
+Frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Frame.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Frame.Position = UDim2.new(0.196088821, 0, 0.116530962, 0)
+Frame.Size = UDim2.new(0, 431, 0, 264)
+Frame.Active = true
+Frame.Draggable = true
+
+AutoBuy.Name = "AutoBuy "
+AutoBuy.Parent = Frame
+AutoBuy.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+AutoBuy.BorderColor3 = Color3.fromRGB(0, 0, 0)
+AutoBuy.Position = UDim2.new(0.170113057, 0, 0.0923780948, 0)
+AutoBuy.Size = UDim2.new(0, 357, 0, 240)
+AutoBuy.Visible = false
+
+TextButton.Parent = AutoBuy
+TextButton.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.Position = UDim2.new(0.00288911094, 0, 0.237137601, 0)
+TextButton.Size = UDim2.new(0, 356, 0, 27)
+TextButton.Font = Enum.Font.SourceSans
+TextButton.Text = "Auto Buy SMG"
+TextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.TextSize = 14.000
+TextButton.MouseButton1Down:connect(function()	game.Players.LocalPlayer.Character:FindFirstChild("HumanoidRootPart").CFrame = CFrame.new(-577.15509, 8.31280708, -718.389282, -0.998606682, -3.90946262e-08, 0.0527698472, -4.20499404e-08, 1, -5.48936399e-08, -0.0527698472, -5.70361252e-08, -0.998606682)
+end)
+
+TextButton_2.Parent = AutoBuy
+TextButton_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_2.Position = UDim2.new(0.00288911094, 0, 0.561775446, 0)
+TextButton_2.Size = UDim2.new(0, 356, 0, 27)
+TextButton_2.Font = Enum.Font.SourceSans
+TextButton_2.Text = "Auto Buy Medium Armor"
+TextButton_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_2.TextSize = 14.000
+TextButton_2.MouseButton1Down:connect(function()	loadstring(game:HttpGet("https://raw.githubusercontent.com/Ghsstx/Medium-armor/main/Medium%20armor", true))()
+end)
+
+TextButton_3.Parent = AutoBuy
+TextButton_3.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_3.Position = UDim2.new(0.00288911094, 0, 0.121195599, 0)
+TextButton_3.Size = UDim2.new(0, 356, 0, 27)
+TextButton_3.Font = Enum.Font.SourceSans
+TextButton_3.Text = "Auto Buy Double Barell"
+TextButton_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_3.TextSize = 14.000
+TextButton_3.MouseButton1Down:connect(function()	loadstring(game:HttpGet("https://pastebin.com/raw/Rm3dbwy3", true))()
+end)
+
+TextButton_4.Parent = AutoBuy
+TextButton_4.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_4.Position = UDim2.new(0.00288911094, 0, 0.677717566, 0)
+TextButton_4.Size = UDim2.new(0, 356, 0, 27)
+TextButton_4.Font = Enum.Font.SourceSans
+TextButton_4.Text = "AutoBuy High Armor"
+TextButton_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_4.TextSize = 14.000
+TextButton_4.MouseButton1Down:connect(function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Ghsstx/Autobuy-High-Armor/main/High%20Armor", true))()
+end)
+
+TextButton_5.Parent = AutoBuy
+TextButton_5.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_5.Position = UDim2.new(0.00288911094, 0, 0.454529077, 0)
+TextButton_5.Size = UDim2.new(0, 356, 0, 27)
+TextButton_5.Font = Enum.Font.SourceSans
+TextButton_5.Text = "Auto Buy Shotgun"
+TextButton_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_5.TextSize = 14.000
+TextButton_5.MouseButton1Down:connect(function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Ghsstx/Autobuy-shotgun/main/Autobuy%20shotgun", true))()
+end)
+
+TextButton_6.Parent = AutoBuy
+TextButton_6.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_6.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_6.Position = UDim2.new(0.00288911094, 0, -0.000543467177, 0)
+TextButton_6.Size = UDim2.new(0, 356, 0, 27)
+TextButton_6.Font = Enum.Font.SourceSans
+TextButton_6.Text = "Auto Buy Revolver"
+TextButton_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_6.TextSize = 14.000
+TextButton_6.MouseButton1Down:connect(function()
+loadstring(game:HttpGet("https://pastebin.com/raw/0NzMQDpe", true))()
+end)
+
+TextButton_7.Parent = AutoBuy
+TextButton_7.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_7.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_7.Position = UDim2.new(0.00288911094, 0, 0.344384015, 0)
+TextButton_7.Size = UDim2.new(0, 356, 0, 27)
+TextButton_7.Font = Enum.Font.SourceSans
+TextButton_7.Text = "Auto Buy Tactical ShotGun"
+TextButton_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_7.TextSize = 14.000
+TextButton_7.MouseButton1Down:connect(function()
+game.Players.LocalPlayer.Character:FindFirstChild("HumanoidRootPart").CFrame = CFrame.new(470.85321, 48.0685158, -620.541138, -0.926537871, -8.41661176e-08, 0.376201481, -6.40420055e-08, 1, 6.59985986e-08, -0.376201481, 3.70575037e-08, -0.926537871)
+end)
+
+Credits.Name = "Credits"
+Credits.Parent = Frame
+Credits.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Credits.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Credits.Position = UDim2.new(0.16802977, 0, 0.0431356505, 0)
+Credits.Size = UDim2.new(0, 358, 0, 240)
+Credits.Visible = false
+
+TextLabel.Parent = Credits
+TextLabel.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.Position = UDim2.new(0.0238910019, 0, 0.025862122, 0)
+TextLabel.Size = UDim2.new(0, 349, 0, 27)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "Owner"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextSize = 14.000
+
+TextLabel_2.Parent = Credits
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.Position = UDim2.new(0.0238910019, 0, 0.408045948, 0)
+TextLabel_2.Size = UDim2.new(0, 349, 0, 27)
+TextLabel_2.Font = Enum.Font.SourceSans
+TextLabel_2.Text = "Discord"
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.TextSize = 14.000
+
+TextLabel_3.Parent = Credits
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_3.Position = UDim2.new(0.0238910019, 0, 0.639080286, 0)
+TextLabel_3.Size = UDim2.new(0, 349, 0, 27)
+TextLabel_3.Font = Enum.Font.SourceSans
+TextLabel_3.Text = "https://discord.gg/jdVgAGkT"
+TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.TextSize = 14.000
+
+TextLabel_4.Parent = Credits
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_4.Position = UDim2.new(0.0238910019, 0, 0.143678159, 0)
+TextLabel_4.Size = UDim2.new(0, 349, 0, 27)
+TextLabel_4.Font = Enum.Font.SourceSans
+TextLabel_4.Text = "[🌐]Envixity#7381"
+TextLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.TextSize = 14.000
+
+TextLabel_5.Parent = Credits
+TextLabel_5.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_5.Position = UDim2.new(0.0266842972, 0, 0.750431061, 0)
+TextLabel_5.Size = UDim2.new(0, 349, 0, 27)
+TextLabel_5.Font = Enum.Font.SourceSans
+TextLabel_5.Text = "Quer Nuker Hub"
+TextLabel_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.TextSize = 14.000
+
+TextLabel_6.Parent = Credits
+TextLabel_6.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_6.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_6.Position = UDim2.new(0.0238910019, 0, 0.540229797, 0)
+TextLabel_6.Size = UDim2.new(0, 349, 0, 27)
+TextLabel_6.Font = Enum.Font.SourceSans
+TextLabel_6.Text = "Envixity Scripts"
+TextLabel_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.TextSize = 14.000
+
+TextLabel_7.Parent = Credits
+TextLabel_7.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_7.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_7.Position = UDim2.new(0.0238910019, 0, 0.275862128, 0)
+TextLabel_7.Size = UDim2.new(0, 349, 0, 27)
+TextLabel_7.Font = Enum.Font.SourceSans
+TextLabel_7.Text = "[🌐]TheNcore#5063"
+TextLabel_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_7.TextSize = 14.000
+
+TextLabel_8.Parent = Credits
+TextLabel_8.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_8.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_8.Position = UDim2.new(0.0266842972, 0, 0.838074744, 0)
+TextLabel_8.Size = UDim2.new(0, 349, 0, 27)
+TextLabel_8.Font = Enum.Font.SourceSans
+TextLabel_8.Text = "https://discord.gg/CUgUFXaj"
+TextLabel_8.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_8.TextSize = 14.000
+
+SilentAim.Name = "Silent Aim"
+SilentAim.Parent = Frame
+SilentAim.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+SilentAim.BorderColor3 = Color3.fromRGB(0, 0, 0)
+SilentAim.Position = UDim2.new(0.168029934, 0, 0.084802337, 0)
+SilentAim.Size = UDim2.new(0, 358, 0, 242)
+SilentAim.Visible = false
+
+TextButton_8.Parent = SilentAim
+TextButton_8.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_8.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_8.Position = UDim2.new(0.000564575195, 0, 0.82623291, 0)
+TextButton_8.Size = UDim2.new(0, 354, 0, 34)
+TextButton_8.Font = Enum.Font.SourceSans
+TextButton_8.Text = "EX Silent V4"
+TextButton_8.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_8.TextSize = 14.000
+TextButton_8.MouseButton1Down:connect(function()	loadstring(game:HttpGet("https://raw.githubusercontent.com/Ghsstx/Blue-Silent-aim-/main/Blue%20Silent%20Aim"))()
+end)
+
+TextButton_9.Parent = SilentAim
+TextButton_9.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_9.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_9.Position = UDim2.new(0.000564575195, 0, 0.221196204, 0)
+TextButton_9.Size = UDim2.new(0, 354, 0, 34)
+TextButton_9.Font = Enum.Font.SourceSans
+TextButton_9.Text = "Blue Silent Aim"
+TextButton_9.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_9.TextSize = 14.000
+TextButton_9.MouseButton1Down:connect(function()	loadstring(game:HttpGet("https://raw.githubusercontent.com/Ghsstx/Blue-Silent-aim-/main/Blue%20Silent%20Aim"))()
+end)
+
+TextButton_10.Parent = SilentAim
+TextButton_10.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_10.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_10.Position = UDim2.new(0.000564575195, 0, 0.100188829, 0)
+TextButton_10.Size = UDim2.new(0, 354, 0, 34)
+TextButton_10.Font = Enum.Font.SourceSans
+TextButton_10.Text = "Green Silent Aim"
+TextButton_10.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_10.TextSize = 14.000
+TextButton_10.MouseButton1Down:connect(function()	loadstring(game:HttpGet("https://pastebin.com/raw/B1ufXMph"))()
+end)
+
+TextButton_11.Parent = SilentAim
+TextButton_11.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_11.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_11.Position = UDim2.new(0.000564575195, 0, 0.463210702, 0)
+TextButton_11.Size = UDim2.new(0, 354, 0, 34)
+TextButton_11.Font = Enum.Font.SourceSans
+TextButton_11.Text = "Black Silent Aim"
+TextButton_11.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_11.TextSize = 14.000
+TextButton_11.MouseButton1Down:connect(function()	loadstring(game:HttpGet("https://raw.githubusercontent.com/Ghsstx/Silent-aim/main/Aim"))()
+end)
+
+TextButton_12.Parent = SilentAim
+TextButton_12.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_12.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_12.Position = UDim2.new(0.000564575195, 0, 0.587243438, 0)
+TextButton_12.Size = UDim2.new(0, 354, 0, 34)
+TextButton_12.Font = Enum.Font.SourceSans
+TextButton_12.Text = "EX Silent Beta"
+TextButton_12.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_12.TextSize = 14.000
+TextButton_12.MouseButton1Down:connect(function()	loadstring(game:HttpGet("https://raw.githubusercontent.com/Ghsstx/Silent-aim/main/Aim"))()
+end)
+
+TextButton_13.Parent = SilentAim
+TextButton_13.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_13.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_13.Position = UDim2.new(0.000564575195, 0, -0.0208184123, 0)
+TextButton_13.Size = UDim2.new(0, 354, 0, 34)
+TextButton_13.Font = Enum.Font.SourceSans
+TextButton_13.Text = "EX Silent Aim"
+TextButton_13.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_13.TextSize = 14.000
+TextButton_13.MouseButton1Down:connect(function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Ghsstx/Blue-Silent-aim-/main/Blue%20Silent%20Aim"))()
+end)
+
+TextButton_14.Parent = SilentAim
+TextButton_14.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_14.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_14.Position = UDim2.new(0.000564575195, 0, 0.708250701, 0)
+TextButton_14.Size = UDim2.new(0, 354, 0, 34)
+TextButton_14.Font = Enum.Font.SourceSans
+TextButton_14.Text = "EX Silent V2"
+TextButton_14.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_14.TextSize = 14.000
+TextButton_14.MouseButton1Down:connect(function()	loadstring(game:HttpGet("https://raw.githubusercontent.com/Ghsstx/Blue-Silent-aim-/main/Blue%20Silent%20Aim"))()
+end)
+
+TextButton_15.Parent = SilentAim
+TextButton_15.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_15.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_15.Position = UDim2.new(0.000564575195, 0, 0.339178413, 0)
+TextButton_15.Size = UDim2.new(0, 354, 0, 34)
+TextButton_15.Font = Enum.Font.SourceSans
+TextButton_15.Text = "White Silent Aim"
+TextButton_15.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_15.TextSize = 14.000
+TextButton_15.MouseButton1Down:connect(function()	loadstring(game:HttpGet("https://raw.githubusercontent.com/Ghsstx/Blue-Silent-aim-/main/Blue%20Silent%20Aim"))()
+end)
+
+Aimlock.Name = "Aimlock"
+Aimlock.Parent = Frame
+Aimlock.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Aimlock.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Aimlock.Position = UDim2.new(0.168029934, 0, 0.0923780948, 0)
+Aimlock.Size = UDim2.new(0, 358, 0, 240)
+Aimlock.Active = true
+
+TextButton_16.Parent = Aimlock
+TextButton_16.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_16.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_16.Position = UDim2.new(0.00365392584, 0, 0.104289755, 0)
+TextButton_16.Size = UDim2.new(0, 356, 0, 27)
+TextButton_16.Font = Enum.Font.SourceSans
+TextButton_16.Text = "Tool Aimlock"
+TextButton_16.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_16.TextSize = 14.000
+TextButton_16.MouseButton1Down:connect(function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/BalligusapoTT/BalligusapoTT/main/anothertoollock"))()
+end)
+
+TextButton_17.Parent = Aimlock
+TextButton_17.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_17.BackgroundTransparency = -0.010
+TextButton_17.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_17.Position = UDim2.new(0.00365392584, 0, 0.209114075, 0)
+TextButton_17.Size = UDim2.new(0, 356, 0, 27)
+TextButton_17.Font = Enum.Font.SourceSans
+TextButton_17.Text = "Box Aimlock"
+TextButton_17.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_17.TextSize = 14.000
+TextButton_17.MouseButton1Down:connect(function()	loadstring(game:HttpGet("https://raw.githubusercontent.com/BalligusapoTT/BalligusapoTT/main/Lockmomento"))()
+end)
+
+TextButton_18.Parent = Aimlock
+TextButton_18.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_18.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_18.Position = UDim2.new(0.00365392584, 0, 0.883485675, 0)
+TextButton_18.Size = UDim2.new(0, 356, 0, 25)
+TextButton_18.Font = Enum.Font.SourceSans
+TextButton_18.Text = "Aimlock [t]"
+TextButton_18.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_18.TextSize = 14.000
+TextButton_18.MouseButton1Down:connect(function()	loadstring(game:HttpGet("https://github.com/Ghsstx/Da-hood-op--aimlock--keybind-t-/blob/main/Da%20hood%20op%20aimlock%20(keybind)%20(t)"))()
+end)
+
+TextButton_19.Parent = Aimlock
+TextButton_19.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_19.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_19.Position = UDim2.new(0.00365392584, 0, 0.562023699, 0)
+TextButton_19.Size = UDim2.new(0, 356, 0, 27)
+TextButton_19.Font = Enum.Font.SourceSans
+TextButton_19.Text = "Aimlock Tracer"
+TextButton_19.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_19.TextSize = 14.000
+TextButton_19.MouseButton1Down:connect(function()	loadstring(game:HttpGet("https://raw.githubusercontent.com/Ghsstx/Aimlock-tracer/main/Aimlock"))()
+end)
+
+TextButton_20.Parent = Aimlock
+TextButton_20.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_20.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_20.Position = UDim2.new(0.00365392584, 0, 0.320926934, 0)
+TextButton_20.Size = UDim2.new(0, 356, 0, 27)
+TextButton_20.Font = Enum.Font.SourceSans
+TextButton_20.Text = "Box Aimlock Tool"
+TextButton_20.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_20.TextSize = 14.000
+TextButton_20.MouseButton1Down:connect(function()	loadstring(game:HttpGet("https://pastebin.com/raw/iNd3xTPv"))()
+end)
+
+TextButton_21.Parent = Aimlock
+TextButton_21.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_21.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_21.Position = UDim2.new(-0.000722192519, 0, 0.443222314, 0)
+TextButton_21.Size = UDim2.new(0, 356, 0, 27)
+TextButton_21.Font = Enum.Font.SourceSans
+TextButton_21.Text = "Rainbow Aimlock [q]"
+TextButton_21.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_21.TextSize = 14.000
+TextButton_21.MouseButton1Down:connect(function()	loadstring(game:HttpGet('https://raw.githubusercontent.com/Ghsstx/Camlock-/main/Lock'))()
+end)
+
+TextButton_22.Parent = Aimlock
+TextButton_22.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_22.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_22.Position = UDim2.new(0.00365392584, 0, 0.673836291, 0)
+TextButton_22.Size = UDim2.new(0, 356, 0, 24)
+TextButton_22.Font = Enum.Font.SourceSans
+TextButton_22.Text = "White Box Lock"
+TextButton_22.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_22.TextSize = 14.000
+TextButton_22.MouseButton1Down:connect(function()	loadstring(game:HttpGet"https://raw.githubusercontent.com/Ghsstx/White-tool-Q1/main/White%20tool")()
+end)
+
+TextButton_23.Parent = Aimlock
+TextButton_23.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_23.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_23.Position = UDim2.new(0.00365392584, 0, 0.782155633, 0)
+TextButton_23.Size = UDim2.new(0, 356, 0, 27)
+TextButton_23.Font = Enum.Font.SourceSans
+TextButton_23.Text = "Camlock [q]"
+TextButton_23.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_23.TextSize = 14.000
+TextButton_23.MouseButton1Down:connect(function()	loadstring(game:HttpGet('https://raw.githubusercontent.com/Ghsstx/Camlock-/main/Lock'))()
+end)
+
+TextButton_24.Parent = Aimlock
+TextButton_24.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_24.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_24.Position = UDim2.new(0.00365392584, 0, -0.0145113626, 0)
+TextButton_24.Size = UDim2.new(0, 356, 0, 27)
+TextButton_24.Font = Enum.Font.SourceSans
+TextButton_24.Text = "Green Aimlock"
+TextButton_24.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_24.TextSize = 14.000
+TextButton_24.MouseButton1Down:connect(function()	loadstring(game:HttpGet('https://raw.githubusercontent.com/BalligusapoTT/BalligusapoTT/main/Aimlockbyyourmom'))()
+end)
+
+OpenAimlockFrame.Name = "OpenAimlockFrame"
+OpenAimlockFrame.Parent = Frame
+OpenAimlockFrame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+OpenAimlockFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+OpenAimlockFrame.Position = UDim2.new(0.00219443347, 0, 0.0883280411, 0)
+OpenAimlockFrame.Size = UDim2.new(0, 72, 0, 15)
+OpenAimlockFrame.Font = Enum.Font.SourceSans
+OpenAimlockFrame.Text = "Aimlock"
+OpenAimlockFrame.TextColor3 = Color3.fromRGB(255, 255, 255)
+OpenAimlockFrame.TextSize = 14.000
+OpenAimlockFrame.Active = true
+
+OpenSilentAimFrame.Name = "OpenSilentAimFrame"
+OpenSilentAimFrame.Parent = Frame
+OpenSilentAimFrame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+OpenSilentAimFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+OpenSilentAimFrame.Position = UDim2.new(0.00219443347, 0, 0.14871794, 0)
+OpenSilentAimFrame.Size = UDim2.new(0, 72, 0, 21)
+OpenSilentAimFrame.Font = Enum.Font.SourceSans
+OpenSilentAimFrame.Text = "Silent Aim"
+OpenSilentAimFrame.TextColor3 = Color3.fromRGB(255, 255, 255)
+OpenSilentAimFrame.TextSize = 14.000
+OpenSilentAimFrame.Active = true
+
+OpenFunFrame.Name = "OpenFunFrame"
+OpenFunFrame.Parent = Frame
+OpenFunFrame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+OpenFunFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+OpenFunFrame.Position = UDim2.new(0.00219443347, 0, 0.225388736, 0)
+OpenFunFrame.Size = UDim2.new(0, 72, 0, 24)
+OpenFunFrame.Font = Enum.Font.SourceSans
+OpenFunFrame.Text = "Fun"
+OpenFunFrame.TextColor3 = Color3.fromRGB(255, 255, 255)
+OpenFunFrame.TextSize = 14.000
+OpenFunFrame.Active = true
+
+OpenAutoBuyFrame.Name = "OpenAutoBuyFrame"
+OpenAutoBuyFrame.Parent = Frame
+OpenAutoBuyFrame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+OpenAutoBuyFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+OpenAutoBuyFrame.Position = UDim2.new(0.00219443347, 0, 0.293919176, 0)
+OpenAutoBuyFrame.Size = UDim2.new(0, 72, 0, 24)
+OpenAutoBuyFrame.Font = Enum.Font.SourceSans
+OpenAutoBuyFrame.Text = "AutoBuy"
+OpenAutoBuyFrame.TextColor3 = Color3.fromRGB(255, 255, 255)
+OpenAutoBuyFrame.TextSize = 14.000
+OpenAutoBuyFrame.Active = true
+
+OpenAnimationFrame.Name = "OpenAnimationFrame"
+OpenAnimationFrame.Parent = Frame
+OpenAnimationFrame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+OpenAnimationFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+OpenAnimationFrame.Position = UDim2.new(0.00219443347, 0, 0.362449408, 0)
+OpenAnimationFrame.Size = UDim2.new(0, 72, 0, 24)
+OpenAnimationFrame.Font = Enum.Font.SourceSans
+OpenAnimationFrame.Text = "Animation"
+OpenAnimationFrame.TextColor3 = Color3.fromRGB(255, 255, 255)
+OpenAnimationFrame.TextSize = 14.000
+OpenAnimationFrame.Active = true
+
+OpenTeleportFrame.Name = "OpenTeleportFrame"
+OpenTeleportFrame.Parent = Frame
+OpenTeleportFrame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+OpenTeleportFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+OpenTeleportFrame.Position = UDim2.new(0.00219443347, 0, 0.430979878, 0)
+OpenTeleportFrame.Size = UDim2.new(0, 72, 0, 24)
+OpenTeleportFrame.Font = Enum.Font.SourceSans
+OpenTeleportFrame.Text = "Teleport"
+OpenTeleportFrame.TextColor3 = Color3.fromRGB(255, 255, 255)
+OpenTeleportFrame.TextSize = 14.000
+OpenTeleportFrame.Active = true
+
+OpenTargetFrame.Name = "OpenTargetFrame"
+OpenTargetFrame.Parent = Frame
+OpenTargetFrame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+OpenTargetFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+OpenTargetFrame.Position = UDim2.new(0.00219443347, 0, 0.499510318, 0)
+OpenTargetFrame.Size = UDim2.new(0, 72, 0, 24)
+OpenTargetFrame.Font = Enum.Font.SourceSans
+OpenTargetFrame.Text = "Target"
+OpenTargetFrame.TextColor3 = Color3.fromRGB(255, 255, 255)
+OpenTargetFrame.TextSize = 14.000
+OpenTargetFrame.Active = true
+
+OpenAutoFarmFrame.Name = "OpenAutoFarmFrame"
+OpenAutoFarmFrame.Parent = Frame
+OpenAutoFarmFrame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+OpenAutoFarmFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+OpenAutoFarmFrame.Position = UDim2.new(0.00219443347, 0, 0.568040788, 0)
+OpenAutoFarmFrame.Size = UDim2.new(0, 72, 0, 24)
+OpenAutoFarmFrame.Font = Enum.Font.SourceSans
+OpenAutoFarmFrame.Text = "AutoFarm"
+OpenAutoFarmFrame.TextColor3 = Color3.fromRGB(255, 255, 255)
+OpenAutoFarmFrame.TextSize = 14.000
+OpenAutoBuyFrame.Active = true
+
+OpenPremiumFrame.Name = "OpenPremiumFrame"
+OpenPremiumFrame.Parent = Frame
+OpenPremiumFrame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+OpenPremiumFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+OpenPremiumFrame.Position = UDim2.new(0.00219443347, 0, 0.63657099, 0)
+OpenPremiumFrame.Size = UDim2.new(0, 72, 0, 24)
+OpenPremiumFrame.Font = Enum.Font.SourceSans
+OpenPremiumFrame.Text = "Premium"
+OpenPremiumFrame.TextColor3 = Color3.fromRGB(255, 255, 255)
+OpenPremiumFrame.TextSize = 14.000
+OpenPremiumFrame.Active = true
+
+OpenExtraStuffFrame.Name = "OpenExtraStuffFrame"
+OpenExtraStuffFrame.Parent = Frame
+OpenExtraStuffFrame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+OpenExtraStuffFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+OpenExtraStuffFrame.Position = UDim2.new(0.00219443347, 0, 0.70510149, 0)
+OpenExtraStuffFrame.Size = UDim2.new(0, 72, 0, 24)
+OpenExtraStuffFrame.Font = Enum.Font.SourceSans
+OpenExtraStuffFrame.Text = "Extra Stuff"
+OpenExtraStuffFrame.TextColor3 = Color3.fromRGB(255, 255, 255)
+OpenExtraStuffFrame.TextSize = 14.000
+OpenExtraStuffFrame.Active = true
+
+OpenEspFrame.Name = "OpenEspFrame"
+OpenEspFrame.Parent = Frame
+OpenEspFrame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+OpenEspFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+OpenEspFrame.Position = UDim2.new(0.00219443347, 0, 0.77363193, 0)
+OpenEspFrame.Size = UDim2.new(0, 72, 0, 24)
+OpenEspFrame.Font = Enum.Font.SourceSans
+OpenEspFrame.Text = "Esp"
+OpenEspFrame.TextColor3 = Color3.fromRGB(255, 255, 255)
+OpenEspFrame.TextSize = 14.000
+OpenEspFrame.Active = true
+
+OpenFovFrame.Name = "OpenFovFrame"
+OpenFovFrame.Parent = Frame
+OpenFovFrame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+OpenFovFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+OpenFovFrame.Position = UDim2.new(0.00219443347, 0, 0.842162371, 0)
+OpenFovFrame.Size = UDim2.new(0, 72, 0, 24)
+OpenFovFrame.Font = Enum.Font.SourceSans
+OpenFovFrame.Text = "Fov"
+OpenFovFrame.TextColor3 = Color3.fromRGB(255, 255, 255)
+OpenFovFrame.TextSize = 14.000
+OpenFovFrame.Active = true
+
+OpenCreditsFrame.Name = "OpenCreditsFrame"
+OpenCreditsFrame.Parent = Frame
+OpenCreditsFrame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+OpenCreditsFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+OpenCreditsFrame.Position = UDim2.new(0.00219443347, 0, 0.910692632, 0)
+OpenCreditsFrame.Size = UDim2.new(0, 72, 0, 24)
+OpenCreditsFrame.Font = Enum.Font.SourceSans
+OpenCreditsFrame.Text = "Credits"
+OpenCreditsFrame.TextColor3 = Color3.fromRGB(255, 255, 255)
+OpenCreditsFrame.TextSize = 14.000
+OpenCreditsFrame.Active = true
+
+TextLabel_9.Parent = Frame
+TextLabel_9.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_9.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_9.Size = UDim2.new(0, 431, 0, 20)
+TextLabel_9.Font = Enum.Font.SourceSans
+TextLabel_9.Text = ""
+TextLabel_9.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_9.TextSize = 14.000
+
+TextLabel_10.Parent = TextLabel_9
+TextLabel_10.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_10.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_10.Position = UDim2.new(0.00464037107, 0, 0.0113632204, 0)
+TextLabel_10.Size = UDim2.new(0, 219, 0, 15)
+TextLabel_10.Font = Enum.Font.SourceSans
+TextLabel_10.Text = "• [☄️]Envixity Scripts X Quer Nuker I Da Hood"
+TextLabel_10.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_10.TextSize = 14.000
+
+Fov.Name = "Fov"
+Fov.Parent = Frame
+Fov.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Fov.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Fov.Position = UDim2.new(0.167556062, 0, 0.0668807551, 0)
+Fov.Size = UDim2.new(0, 358, 0, 240)
+Fov.Visible = false
+
+TextButton_25.Parent = Fov
+TextButton_25.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_25.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_25.Position = UDim2.new(0.0238906611, 0, 0.153179169, 0)
+TextButton_25.Size = UDim2.new(0, 349, 0, 27)
+TextButton_25.Font = Enum.Font.SourceSans
+TextButton_25.Text = "Fov/110"
+TextButton_25.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_25.TextSize = 14.000
+TextButton_25.MouseButton1Down:connect(function()
+	local amount = 110
+game:GetService'Workspace'.Camera.FieldOfView = 110
+end)
+
+TextButton_26.Parent = Fov
+TextButton_26.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_26.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_26.Position = UDim2.new(0.0238906611, 0, 0.817919135, 0)
+TextButton_26.Size = UDim2.new(0, 349, 0, 27)
+TextButton_26.Font = Enum.Font.SourceSans
+TextButton_26.Text = "Fov/250"
+TextButton_26.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_26.TextSize = 14.000
+TextButton_26.MouseButton1Down:connect(function()
+	local amount = 250
+game:GetService'Workspace'.Camera.FieldOfView = 250
+end)
+
+TextButton_27.Parent = Fov
+TextButton_27.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_27.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_27.Position = UDim2.new(0.0238906611, 0, 0.684971094, 0)
+TextButton_27.Size = UDim2.new(0, 349, 0, 27)
+TextButton_27.Font = Enum.Font.SourceSans
+TextButton_27.Text = "Fov/225"
+TextButton_27.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_27.TextSize = 14.000
+TextButton_27.MouseButton1Down:connect(function()
+	local amount = 225
+game:GetService'Workspace'.Camera.FieldOfView = 225
+end)
+
+TextButton_28.Parent = Fov
+TextButton_28.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_28.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_28.Position = UDim2.new(0.0238906611, 0, 0.28612721, 0)
+TextButton_28.Size = UDim2.new(0, 349, 0, 27)
+TextButton_28.Font = Enum.Font.SourceSans
+TextButton_28.Text = "Fov/155"
+TextButton_28.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_28.TextSize = 14.000
+TextButton_28.MouseButton1Down:connect(function()
+	local amount = 155
+game:GetService'Workspace'.Camera.FieldOfView = 155
+end)
+
+TextButton_29.Parent = Fov
+TextButton_29.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_29.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_29.Position = UDim2.new(0.0238906611, 0, 0.419075012, 0)
+TextButton_29.Size = UDim2.new(0, 349, 0, 27)
+TextButton_29.Font = Enum.Font.SourceSans
+TextButton_29.Text = "Fov/177"
+TextButton_29.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_29.TextSize = 14.000
+TextButton_29.MouseButton1Down:connect(function()
+	local amount = 177
+game:GetService'Workspace'.Camera.FieldOfView = 177
+end)
+
+TextButton_30.Parent = Fov
+TextButton_30.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_30.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_30.Position = UDim2.new(0.0238906611, 0, 0.552023053, 0)
+TextButton_30.Size = UDim2.new(0, 349, 0, 27)
+TextButton_30.Font = Enum.Font.SourceSans
+TextButton_30.Text = "Fov/198"
+TextButton_30.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_30.TextSize = 14.000
+TextButton_30.MouseButton1Down:connect(function()
+	local amount = 198
+game:GetService'Workspace'.Camera.FieldOfView = 198
+end)
+
+TextButton_31.Parent = Fov
+TextButton_31.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_31.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_31.Position = UDim2.new(0.0238906611, 0, 0.0231213886, 0)
+TextButton_31.Size = UDim2.new(0, 349, 0, 27)
+TextButton_31.Font = Enum.Font.SourceSans
+TextButton_31.Text = "Fov/90"
+TextButton_31.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_31.TextSize = 14.000
+TextButton_31.MouseButton1Down:connect(function()
+	local amount = 90
+game:GetService'Workspace'.Camera.FieldOfView = 90
+end)
+
+Fun.Name = "Fun"
+Fun.Parent = Frame
+Fun.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Fun.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Fun.Position = UDim2.new(0.172196463, 0, 0.0885899886, 0)
+Fun.Size = UDim2.new(0, 356, 0, 240)
+Fun.Visible = false
+
+TextButton_32.Parent = Fun
+TextButton_32.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_32.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_32.Position = UDim2.new(0.00364153576, 0, 0.883485675, 0)
+TextButton_32.Size = UDim2.new(0, 355, 0, 25)
+TextButton_32.Font = Enum.Font.SourceSans
+TextButton_32.Text = "Reach"
+TextButton_32.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_32.TextSize = 14.000
+TextButton_32.MouseButton1Down:connect(function()	loadstring(game:HttpGet('https://pastebin.com/raw/aZHK690D'))()
+end)
+
+TextButton_33.Parent = Fun
+TextButton_33.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_33.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_33.Position = UDim2.new(0.00364153576, 0, -0.0145113626, 0)
+TextButton_33.Size = UDim2.new(0, 355, 0, 27)
+TextButton_33.Font = Enum.Font.SourceSans
+TextButton_33.Text = "Trash Talk [j]"
+TextButton_33.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_33.TextSize = 14.000
+TextButton_33.MouseButton1Down:connect(function()	loadstring(game:HttpGet('https://pastebin.com/raw/jVHDu689'))()
+end)
+
+TextButton_34.Parent = Fun
+TextButton_34.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_34.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_34.Position = UDim2.new(0.00364153576, 0, 0.320926934, 0)
+TextButton_34.Size = UDim2.new(0, 355, 0, 27)
+TextButton_34.Font = Enum.Font.SourceSans
+TextButton_34.Text = "Keyboard"
+TextButton_34.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_34.TextSize = 14.000
+TextButton_34.MouseButton1Down:connect(function()	loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))()
+end)
+
+TextButton_35.Parent = Fun
+TextButton_35.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_35.BackgroundTransparency = -0.010
+TextButton_35.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_35.Position = UDim2.new(0.00364153576, 0, 0.209114075, 0)
+TextButton_35.Size = UDim2.new(0, 355, 0, 27)
+TextButton_35.Font = Enum.Font.SourceSans
+TextButton_35.Text = "Q Tool"
+TextButton_35.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_35.TextSize = 14.000
+TextButton_35.MouseButton1Down:connect(function()	loadstring(game:HttpGet('https://pastebin.com/raw/jQVeSSrU'))()
+end)
+
+TextButton_36.Parent = Fun
+TextButton_36.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_36.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_36.Position = UDim2.new(0.00364153576, 0, 0.562023699, 0)
+TextButton_36.Size = UDim2.new(0, 355, 0, 27)
+TextButton_36.Font = Enum.Font.SourceSans
+TextButton_36.Text = "Anti-lock"
+TextButton_36.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_36.TextSize = 14.000
+TextButton_36.MouseButton1Down:connect(function()	loadstring(game:HttpGet("https://raw.githubusercontent.com/iluvje54/kaias/main/project"))()
+end)
+
+TextButton_37.Parent = Fun
+TextButton_37.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_37.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_37.Position = UDim2.new(0.00364153576, 0, 0.673836291, 0)
+TextButton_37.Size = UDim2.new(0, 355, 0, 24)
+TextButton_37.Font = Enum.Font.SourceSans
+TextButton_37.Text = "Anti-lock Speed"
+TextButton_37.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_37.TextSize = 14.000
+TextButton_37.MouseButton1Down:connect(function()
+	getgenv().Multiplier = L_141_arg0
+end)
+
+TextButton_38.Parent = Fun
+TextButton_38.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_38.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_38.Position = UDim2.new(-0.000722135068, 0, 0.443222314, 0)
+TextButton_38.Size = UDim2.new(0, 355, 0, 27)
+TextButton_38.Font = Enum.Font.SourceSans
+TextButton_38.Text = "Infinite Zoom"
+TextButton_38.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_38.TextSize = 14.000
+TextButton_38.MouseButton1Down:connect(function()	game:GetService("Players").LocalPlayer.CameraMaxZoomDistance = math.huge
+end)
+
+TextButton_39.Parent = Fun
+TextButton_39.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_39.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_39.Position = UDim2.new(0.00364153576, 0, 0.104289755, 0)
+TextButton_39.Size = UDim2.new(0, 355, 0, 27)
+TextButton_39.Font = Enum.Font.SourceSans
+TextButton_39.Text = "Speed Tool"
+TextButton_39.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_39.TextSize = 14.000
+TextButton_39.MouseButton1Down:connect(function()	loadstring(game:HttpGetAsync("https://pastebin.com/raw/TsXunMTa", true))()
+end)
+
+TextButton_40.Parent = Fun
+TextButton_40.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_40.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_40.Position = UDim2.new(0.00364153576, 0, 0.782155633, 0)
+TextButton_40.Size = UDim2.new(0, 355, 0, 27)
+TextButton_40.Font = Enum.Font.SourceSans
+TextButton_40.Text = "GodMode [Guns]"
+TextButton_40.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_40.TextSize = 14.000
+TextButton_40.MouseButton1Down:connect(function()
+	local L_424_ = game.Players.LocalPlayer
+end)
+
+Target.Name = "Target"
+Target.Parent = Frame
+Target.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Target.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Target.Position = UDim2.new(0.168977186, 0, 0.0658629239, 0)
+Target.Size = UDim2.new(0, 358, 0, 240)
+Target.Visible = false
+
+TextButton_41.Parent = Target
+TextButton_41.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_41.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_41.Position = UDim2.new(0.0135138314, 0, 0.0202312469, 0)
+TextButton_41.Size = UDim2.new(0, 352, 0, 27)
+TextButton_41.Font = Enum.Font.SourceSans
+TextButton_41.Text = "Go To Player"
+TextButton_41.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_41.TextSize = 14.000
+TextButton_41.MouseButton1Down:connect(function()
+	print('Working')
+end)
+
+TextButton_42.Parent = Target
+TextButton_42.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_42.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_42.Position = UDim2.new(0.0135138314, 0, 0.274566382, 0)
+TextButton_42.Size = UDim2.new(0, 352, 0, 27)
+TextButton_42.Font = Enum.Font.SourceSans
+TextButton_42.Text = "Stomp Player"
+TextButton_42.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_42.TextSize = 14.000
+TextButton_42.MouseButton1Down:connect(function()
+	print('Working')
+end)
+
+TextButton_43.Parent = Target
+TextButton_43.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_43.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_43.Position = UDim2.new(0.0168540571, 0, 0.407514453, 0)
+TextButton_43.Size = UDim2.new(0, 352, 0, 27)
+TextButton_43.Font = Enum.Font.SourceSans
+TextButton_43.Text = "LopKill Player"
+TextButton_43.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_43.TextSize = 14.000
+TextButton_43.MouseButton1Down:connect(function()
+	print('Working')
+end)
+
+TextButton_44.Parent = Target
+TextButton_44.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_44.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_44.Position = UDim2.new(0.0168540571, 0, 0.540462494, 0)
+TextButton_44.Size = UDim2.new(0, 352, 0, 27)
+TextButton_44.Font = Enum.Font.SourceSans
+TextButton_44.Text = "Arrest Player"
+TextButton_44.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_44.TextSize = 14.000
+TextButton_44.MouseButton1Down:connect(function()
+	print('Working')
+end)
+
+TextButton_45.Parent = Target
+TextButton_45.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_45.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_45.Position = UDim2.new(0.0168540571, 0, 0.147398889, 0)
+TextButton_45.Size = UDim2.new(0, 352, 0, 27)
+TextButton_45.Font = Enum.Font.SourceSans
+TextButton_45.Text = "Bag Player"
+TextButton_45.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_45.TextSize = 14.000
+TextButton_45.MouseButton1Down:connect(function()
+	print('Working')
+end)
+
+TextButton_46.Parent = Target
+TextButton_46.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_46.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_46.Position = UDim2.new(0.0135138314, 0, 0.806358337, 0)
+TextButton_46.Size = UDim2.new(0, 352, 0, 27)
+TextButton_46.Font = Enum.Font.SourceSans
+TextButton_46.Text = "LoopKill SMG"
+TextButton_46.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_46.TextSize = 14.000
+TextButton_46.MouseButton1Down:connect(function()
+	print('Working')
+end)
+
+TextButton_47.Parent = Target
+TextButton_47.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_47.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_47.Position = UDim2.new(0.0135138314, 0, 0.673410535, 0)
+TextButton_47.Size = UDim2.new(0, 352, 0, 27)
+TextButton_47.Font = Enum.Font.SourceSans
+TextButton_47.Text = "LoopKill Revolver"
+TextButton_47.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_47.TextSize = 14.000
+TextButton_47.MouseButton1Down:connect(function()
+	print('Working')
+end)
+
+AutoFarm.Name = "AutoFarm"
+AutoFarm.Parent = Frame
+AutoFarm.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+AutoFarm.BorderColor3 = Color3.fromRGB(0, 0, 0)
+AutoFarm.Position = UDim2.new(0.16802983, 0, 0.0668807551, 0)
+AutoFarm.Size = UDim2.new(0, 358, 0, 240)
+AutoFarm.Visible = false
+
+TextButton_48.Parent = AutoFarm
+TextButton_48.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_48.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_48.Position = UDim2.new(0.0238096789, 0, 0.284482837, 0)
+TextButton_48.Size = UDim2.new(0, 348, 0, 27)
+TextButton_48.Font = Enum.Font.SourceSans
+TextButton_48.Text = "Auto Farm Weight"
+TextButton_48.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_48.TextSize = 14.000
+TextButton_48.MouseButton1Down:connect(function()
+	print('Working')
+end)
+
+TextButton_49.Parent = AutoFarm
+TextButton_49.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_49.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_49.Position = UDim2.new(0.0238096789, 0, 0.416666657, 0)
+TextButton_49.Size = UDim2.new(0, 348, 0, 27)
+TextButton_49.Font = Enum.Font.SourceSans
+TextButton_49.Text = "Auto Farm Letuce"
+TextButton_49.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_49.TextSize = 14.000
+TextButton_49.MouseButton1Down:connect(function()
+	print('Working')
+end)
+
+TextButton_50.Parent = AutoFarm
+TextButton_50.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_50.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_50.Position = UDim2.new(0.0271343887, 0, 0.025862122, 0)
+TextButton_50.Size = UDim2.new(0, 348, 0, 27)
+TextButton_50.Font = Enum.Font.SourceSans
+TextButton_50.Text = "Auto Farm Cash"
+TextButton_50.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_50.TextSize = 14.000
+TextButton_50.MouseButton1Down:connect(function()	loadstring(game:HttpGet("https://pastebin.com/raw/ssBF6arg", true))()
+end)
+
+TextButton_51.Parent = AutoFarm
+TextButton_51.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_51.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_51.Position = UDim2.new(0.0238096789, 0, 0.152298868, 0)
+TextButton_51.Size = UDim2.new(0, 348, 0, 27)
+TextButton_51.Font = Enum.Font.SourceSans
+TextButton_51.Text = "Auto Farm Stomp"
+TextButton_51.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_51.TextSize = 14.000
+TextButton_51.MouseButton1Down:connect(function()
+	print('Working')
+end)
+
+TextButton_52.Parent = AutoFarm
+TextButton_52.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_52.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_52.Position = UDim2.new(0.0238096789, 0, 0.548850477, 0)
+TextButton_52.Size = UDim2.new(0, 348, 0, 27)
+TextButton_52.Font = Enum.Font.SourceSans
+TextButton_52.Text = "Auto Farm SMG"
+TextButton_52.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_52.TextSize = 14.000
+TextButton_52.MouseButton1Down:connect(function()
+	print('Working')
+end)
+
+Teleport.Name = "Teleport"
+Teleport.Parent = Frame
+Teleport.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Teleport.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Teleport.Position = UDim2.new(0.168503523, 0, 0.0658631027, 0)
+Teleport.Size = UDim2.new(0, 358, 0, 240)
+Teleport.Visible = false
+
+TextButton_53.Parent = Teleport
+TextButton_53.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_53.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_53.Position = UDim2.new(0.0136053842, 0, 0.0115606943, 0)
+TextButton_53.Size = UDim2.new(0, 353, 0, 27)
+TextButton_53.Font = Enum.Font.SourceSans
+TextButton_53.Text = "Hospital"
+TextButton_53.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_53.TextSize = 14.000
+TextButton_53.MouseButton1Down:connect(function()	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(87.5096588, 21.8513165, -484.872772, 0.0225047711, 1.95386427e-08, 0.99974674, 6.02370598e-09, 1, -1.96791881e-08, -0.99974674, 6.46505605e-09, 0.0225047711)
+end)
+
+TextButton_54.Parent = Teleport
+TextButton_54.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_54.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_54.Position = UDim2.new(0.0136053842, 0, 0.346820831, 0)
+TextButton_54.Size = UDim2.new(0, 353, 0, 27)
+TextButton_54.Font = Enum.Font.SourceSans
+TextButton_54.Text = "Gun Shop 2"
+TextButton_54.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_54.TextSize = 14.000
+TextButton_54.MouseButton1Down:connect(function()	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-564.921021, 8.0961647, -738.423035, -0.3074947, 8.85963942e-08, -0.951549768, 2.58811639e-08, 1, 8.47439381e-08, 0.951549768, 1.43109524e-09, -0.3074947)
+end)
+
+TextButton_55.Parent = Teleport
+TextButton_55.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_55.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_55.Position = UDim2.new(0.0136053842, 0, 0.234103903, 0)
+TextButton_55.Size = UDim2.new(0, 353, 0, 27)
+TextButton_55.Font = Enum.Font.SourceSans
+TextButton_55.Text = "Gun Shop 1"
+TextButton_55.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_55.TextSize = 14.000
+TextButton_55.MouseButton1Down:connect(function()	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(481.295166, 48.1013145, -609.212402, -0.993574321, 2.26258727e-08, -0.113181539, 2.77346661e-08, 1, -4.35634604e-08, 0.113181539, -4.64225884e-08, -0.993574321)
+end)
+
+TextButton_56.Parent = Teleport
+TextButton_56.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_56.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_56.Position = UDim2.new(0.0136053842, 0, 0.124277495, 0)
+TextButton_56.Size = UDim2.new(0, 353, 0, 27)
+TextButton_56.Font = Enum.Font.SourceSans
+TextButton_56.Text = "Gas Station"
+TextButton_56.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_56.TextSize = 14.000
+TextButton_56.MouseButton1Down:connect(function()	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(510.572052, 48.1013107, -252.851395, 0.00980039313, -5.93256928e-08, 0.999951959, 3.84763226e-08, 1, 5.89514428e-08, -0.999951959, 3.78967293e-08, 0.00980039313)
+end)
+
+TextButton_57.Parent = Teleport
+TextButton_57.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_57.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_57.Position = UDim2.new(0.0136053842, 0, 0.676300585, 0)
+TextButton_57.Size = UDim2.new(0, 353, 0, 27)
+TextButton_57.Font = Enum.Font.SourceSans
+TextButton_57.Text = "Teleport Bank"
+TextButton_57.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_57.TextSize = 14.000
+TextButton_57.MouseButton1Down:connect(function()	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-416.606476, 22.6462955, -283.63504, -0.180987164, 6.0318996e-08, -0.98348546, -9.78523129e-09, 1, 6.31326031e-08, 0.98348546, 2.10498232e-08, -0.180987164)
+end)
+
+TextButton_58.Parent = Teleport
+TextButton_58.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_58.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_58.Position = UDim2.new(0.0136053842, 0, 0.456647247, 0)
+TextButton_58.Size = UDim2.new(0, 353, 0, 27)
+TextButton_58.Font = Enum.Font.SourceSans
+TextButton_58.Text = "Teleport Taco"
+TextButton_58.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_58.TextSize = 14.000
+TextButton_58.MouseButton1Down:connect(function()	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-281.66864, 21.8513165, -802.096741, -0.919341505, -2.4490705e-09, 0.393460572, -8.42798809e-09, 1, -1.34680054e-08, -0.393460572, -1.56977773e-08, -0.919341505)
+end)
+
+TextButton_59.Parent = Teleport
+TextButton_59.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_59.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_59.Position = UDim2.new(0.0136053842, 0, 0.566473901, 0)
+TextButton_59.Size = UDim2.new(0, 353, 0, 27)
+TextButton_59.Font = Enum.Font.SourceSans
+TextButton_59.Text = "Teleport Roof School"
+TextButton_59.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_59.TextSize = 14.000
+TextButton_59.MouseButton1Down:connect(function()	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-599.120178, 21.8463097, 227.232132, 0.818630815, -3.32348975e-08, -0.574320078, -7.84570631e-10, 1, -5.89865685e-08, 0.574320078, 4.87388157e-08, 0.818630815)
+end)
+
+TextButton_60.Parent = Teleport
+TextButton_60.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_60.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_60.Position = UDim2.new(0.0136053842, 0, 0.78901726, 0)
+TextButton_60.Size = UDim2.new(0, 353, 0, 27)
+TextButton_60.Font = Enum.Font.SourceSans
+TextButton_60.Text = "Teleport Admin Base"
+TextButton_60.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_60.TextSize = 14.000
+TextButton_60.MouseButton1Down:connect(function()	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-629.506531, -39.5578957, -886.225769, -0.000592476455, 9.89941782e-08, 0.999999821, -1.26496702e-09, 1, -9.89949385e-08, -0.999999821, -1.32361888e-09, -0.000592476455)
+end)
+
+TextButton_61.Parent = Teleport
+TextButton_61.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_61.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_61.Position = UDim2.new(0.0136053842, 0, 0.901517272, 0)
+TextButton_61.Size = UDim2.new(0, 353, 0, 27)
+TextButton_61.Font = Enum.Font.SourceSans
+TextButton_61.Text = "Teleport Food Shop"
+TextButton_61.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_61.TextSize = 14.000
+TextButton_61.MouseButton1Down:connect(function()	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-344.486755, 23.7789612, -298.167511, 0.0916095972, -2.09653628e-08, 0.995795012, -1.15024356e-07, 1, 3.16357252e-08, -0.995795012, -1.17438816e-07, 0.0916095972)
+end)
+
+Animation.Name = "Animation"
+Animation.Parent = Frame
+Animation.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Animation.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Animation.Position = UDim2.new(0.170814037, 0, 0.101821557, 0)
+Animation.Size = UDim2.new(0, 357, 0, 240)
+Animation.Visible = false
+
+TextButton_62.Parent = Animation
+TextButton_62.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_62.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_62.Position = UDim2.new(0.0204777215, 0, 0.0142045338, 0)
+TextButton_62.Size = UDim2.new(0, 350, 0, 25)
+TextButton_62.Font = Enum.Font.SourceSans
+TextButton_62.Text = "Animation Gui"
+TextButton_62.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_62.TextSize = 14.000
+TextButton_62.MouseButton1Down:connect(function()	loadstring(game:HttpGet("https://pastebin.com/raw/X7JBPLuM"))()
+end)
+
+Esp.Name = "Esp"
+Esp.Parent = Frame
+Esp.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Esp.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Esp.Position = UDim2.new(0.167556062, 0, 0.0668807179, 0)
+Esp.Size = UDim2.new(0, 358, 0, 240)
+Esp.Visible = false
+
+TextButton_63.Parent = Esp
+TextButton_63.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_63.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_63.Position = UDim2.new(0.0204082467, 0, 0.734870374, 0)
+TextButton_63.Size = UDim2.new(0, 351, 0, 27)
+TextButton_63.Font = Enum.Font.SourceSans
+TextButton_63.Text = "White Esp"
+TextButton_63.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_63.TextSize = 14.000
+TextButton_63.MouseButton1Down:connect(function()
+	local players = game.Players:GetPlayers()
+
+for i,v in pairs(players) do
+local esp = Instance.new("Highlight")
+esp.Name = v.Name
+esp.FillTransparency = 0
+esp.FillColor = Color3.new(1, 1, 1)
+esp.OutlineColor = Color3.new(1, 1, 1)
+esp.OutlineTransparency = 0
+esp.Parent = v.Character
+end
+end)
+
+TextButton_64.Parent = Esp
+TextButton_64.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_64.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_64.Position = UDim2.new(0.0204082467, 0, 0.259365857, 0)
+TextButton_64.Size = UDim2.new(0, 351, 0, 27)
+TextButton_64.Font = Enum.Font.SourceSans
+TextButton_64.Text = "Red Esp"
+TextButton_64.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_64.TextSize = 14.000
+TextButton_64.MouseButton1Down:connect(function()
+	local players = game.Players:GetPlayers()
+
+for i,v in pairs(players) do
+local esp = Instance.new("Highlight")
+esp.Name = v.Name
+esp.FillTransparency = 0
+esp.FillColor = Color3.new(1, 0, 0.0156863)
+esp.OutlineColor = Color3.new(1, 0, 0.0156863)
+esp.OutlineTransparency = 0
+esp.Parent = v.Character
+end
+end)
+
+TextButton_65.Parent = Esp
+TextButton_65.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_65.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_65.Position = UDim2.new(0.0204082467, 0, 0.0230547581, 0)
+TextButton_65.Size = UDim2.new(0, 351, 0, 27)
+TextButton_65.Font = Enum.Font.SourceSans
+TextButton_65.Text = "Black Esp"
+TextButton_65.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_65.TextSize = 14.000
+TextButton_65.MouseButton1Down:connect(function()
+	local players = game.Players:GetPlayers()
+
+for i,v in pairs(players) do
+local esp = Instance.new("Highlight")
+esp.Name = v.Name
+esp.FillTransparency = 0
+esp.FillColor = Color3.new(0, 0, 0)
+esp.OutlineColor = Color3.new(0, 0, 0)
+esp.OutlineTransparency = 0
+esp.Parent = v.Character
+end
+end)
+
+TextButton_66.Parent = Esp
+TextButton_66.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_66.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_66.Position = UDim2.new(0.0204082467, 0, 0.138328552, 0)
+TextButton_66.Size = UDim2.new(0, 351, 0, 27)
+TextButton_66.Font = Enum.Font.SourceSans
+TextButton_66.Text = "Green Esp"
+TextButton_66.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_66.TextSize = 14.000
+TextButton_66.MouseButton1Down:connect(function()
+	local players = game.Players:GetPlayers()
+
+for i,v in pairs(players) do
+local esp = Instance.new("Highlight")
+esp.Name = v.Name
+esp.FillTransparency = 0
+esp.FillColor = Color3.new(0, 1, 0.0666667)
+esp.OutlineColor = Color3.new(0.235294, 1, 0)
+esp.OutlineTransparency = 0
+esp.Parent = v.Character
+end
+end)
+
+TextButton_67.Parent = Esp
+TextButton_67.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_67.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_67.Position = UDim2.new(0.0204082467, 0, 0.619596601, 0)
+TextButton_67.Size = UDim2.new(0, 351, 0, 27)
+TextButton_67.Font = Enum.Font.SourceSans
+TextButton_67.Text = "Yellow Esp"
+TextButton_67.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_67.TextSize = 14.000
+TextButton_67.MouseButton1Down:connect(function()
+	local players = game.Players:GetPlayers()
+
+for i,v in pairs(players) do
+local esp = Instance.new("Highlight")
+esp.Name = v.Name
+esp.FillTransparency = 0
+esp.FillColor = Color3.new(0.94902, 1, 0)
+esp.OutlineColor = Color3.new(0.94902, 1, 0)
+esp.OutlineTransparency = 0
+esp.Parent = v.Character
+end
+end)
+
+TextButton_68.Parent = Esp
+TextButton_68.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_68.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_68.Position = UDim2.new(0.0204082467, 0, 0.504322827, 0)
+TextButton_68.Size = UDim2.new(0, 351, 0, 27)
+TextButton_68.Font = Enum.Font.SourceSans
+TextButton_68.Text = "Purple Esp"
+TextButton_68.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_68.TextSize = 14.000
+TextButton_68.MouseButton1Down:connect(function()
+	local players = game.Players:GetPlayers()
+
+for i,v in pairs(players) do
+local esp = Instance.new("Highlight")
+esp.Name = v.Name
+esp.FillTransparency = 0
+esp.FillColor = Color3.new(0.564706, 0.176471, 0.631373)
+esp.OutlineColor = Color3.new(0.564706, 0.176471, 0.631373)
+esp.OutlineTransparency = 0
+    esp.Parent = v.Character
+end
+end)
+
+TextButton_69.Parent = Esp
+TextButton_69.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_69.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_69.Position = UDim2.new(0.0204082467, 0, 0.847262323, 0)
+TextButton_69.Size = UDim2.new(0, 351, 0, 27)
+TextButton_69.Font = Enum.Font.SourceSans
+TextButton_69.Text = "Brown Esp"
+TextButton_69.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_69.TextSize = 14.000
+TextButton_69.MouseButton1Down:connect(function()
+	local players = game.Players:GetPlayers()
+
+for i,v in pairs(players) do
+    local esp = Instance.new("Highlight")
+    esp.Name = v.Name
+    esp.FillTransparency = 0
+    esp.FillColor = Color3.new(0.415686, 0.180392, 0.184314)
+    esp.OutlineColor = Color3.new(0.415686, 0.180392, 0.184314)
+    esp.OutlineTransparency = 0
+    esp.Parent = v.Character
+end
+end)
+
+TextButton_70.Parent = Esp
+TextButton_70.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_70.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_70.Position = UDim2.new(0.0204082467, 0, 0.386167139, 0)
+TextButton_70.Size = UDim2.new(0, 351, 0, 27)
+TextButton_70.Font = Enum.Font.SourceSans
+TextButton_70.Text = "Blue Esp"
+TextButton_70.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_70.TextSize = 14.000
+TextButton_70.MouseButton1Down:connect(function()
+	local players = game.Players:GetPlayers()
+
+for i,v in pairs(players) do
+    local esp = Instance.new("Highlight")
+    esp.Name = v.Name
+    esp.FillTransparency = 0
+    esp.FillColor = Color3.new(0, 0.101961, 1)
+    esp.OutlineColor = Color3.new(0, 0.101961, 1)
+    esp.OutlineTransparency = 0
+    esp.Parent = v.Character
+end
+end)
+
+ExtraStuff.Name = "Extra Stuff"
+ExtraStuff.Parent = Frame
+ExtraStuff.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+ExtraStuff.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ExtraStuff.Position = UDim2.new(0.167082548, 0, 0.0431356728, 0)
+ExtraStuff.Size = UDim2.new(0, 358, 0, 240)
+ExtraStuff.Visible = false
+
+TextButton_71.Parent = ExtraStuff
+TextButton_71.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_71.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_71.Position = UDim2.new(0.0239724945, 0, 0.408045948, 0)
+TextButton_71.Size = UDim2.new(0, 349, 0, 27)
+TextButton_71.Font = Enum.Font.SourceSans
+TextButton_71.Text = "OP Silent Aim [q]"
+TextButton_71.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_71.TextSize = 14.000
+TextButton_71.MouseButton1Down:connect(function()	loadstring(game:HttpGet("https://raw.githubusercontent.com/Ghsstx/Rainbow-aimlock/main/Rainbow%20lock"))()
+end)
+
+TextButton_72.Parent = ExtraStuff
+TextButton_72.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_72.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_72.Position = UDim2.new(0.0273304526, 0, 0.143678159, 0)
+TextButton_72.Size = UDim2.new(0, 349, 0, 27)
+TextButton_72.Font = Enum.Font.SourceSans
+TextButton_72.Text = "Inf Jump"
+TextButton_72.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_72.TextSize = 14.000
+TextButton_72.MouseButton1Down:connect(function()	loadstring(game:HttpGet("https://pastebin.com/raw/V3DKCQTT", true))()
+end)
+
+TextButton_73.Parent = ExtraStuff
+TextButton_73.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_73.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_73.Position = UDim2.new(0.0239724945, 0, 0.275862128, 0)
+TextButton_73.Size = UDim2.new(0, 349, 0, 27)
+TextButton_73.Font = Enum.Font.SourceSans
+TextButton_73.Text = "OP Aimlock"
+TextButton_73.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_73.TextSize = 14.000
+TextButton_73.MouseButton1Down:connect(function()	loadstring(game:HttpGetAsync("https://pastebin.com/raw/iaygcrJ1", true))()
+end)
+
+TextButton_74.Parent = ExtraStuff
+TextButton_74.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_74.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_74.Position = UDim2.new(0.0239724945, 0, 0.540229797, 0)
+TextButton_74.Size = UDim2.new(0, 349, 0, 27)
+TextButton_74.Font = Enum.Font.SourceSans
+TextButton_74.Text = "OP Esp"
+TextButton_74.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_74.TextSize = 14.000
+TextButton_74.MouseButton1Down:connect(function()	loadstring(game:HttpGet("https://pastebin.com/raw/gAgNP9bh"))();
+loadstring(game:HttpGet("https://pastebin.com/raw/XATTnyMi"))();
+end)
+
+TextButton_75.Parent = ExtraStuff
+TextButton_75.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_75.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_75.Position = UDim2.new(0.0273304526, 0, 0.0229885094, 0)
+TextButton_75.Size = UDim2.new(0, 349, 0, 27)
+TextButton_75.Font = Enum.Font.SourceSans
+TextButton_75.Text = "Punch Tool"
+TextButton_75.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_75.TextSize = 14.000
+TextButton_75.MouseButton1Down:connect(function()
+	print('Working')
+end)
+
+Premium.Name = "Premium"
+Premium.Parent = Frame
+Premium.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Premium.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Premium.Position = UDim2.new(0.168030038, 0, 0.0658629239, 0)
+Premium.Size = UDim2.new(0, 358, 0, 240)
+Premium.Active = false
+
+TextButton_84.Parent = EnvixityXQuerNuker
+TextButton_84.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_84.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_84.Position = UDim2.new(-0.000147938728, 0, 0.43409723, 0)
+TextButton_84.Size = UDim2.new(0, 64, 0, 58)
+TextButton_84.Font = Enum.Font.SourceSans
+TextButton_84.Text = ""
+TextButton_84.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_84.TextSize = 14.000
+TextButton_84.Draggable = true
+TextButton_84.MouseButton1Down:connect(function()
+	print('Working')
+end)
+
+UICorner.Parent = TextButton_84
+
+local function HQXRPQQ_fake_script() -- OpenAimlockFrame.LocalScript 
+	local script = Instance.new('LocalScript', OpenAimlockFrame)
+
+	local AimlockFrame = script.Parent.Parent.Aimlock
+	local AnimationFrame = script.Parent.Parent.Animation
+	local AutoBuyFrame = script.Parent.Parent["AutoBuy "]
+	local AutoFarmFrame = script.Parent.Parent.AutoFarm
+	local CreditsFrame = script.Parent.Parent.Credits
+	local EspFrame = script.Parent.Parent.Esp
+	local ExtraStuffFrame = script.Parent.Parent["Extra Stuff"]
+	local FovFrame = script.Parent.Parent.Fov
+	local FunFrame = script.Parent.Parent.Fun
+	local PremiumFrame = script.Parent.Parent.Premium
+	local SilentAimFrame = script.Parent.Parent["Silent Aim"]
+	local TargetFrame = script.Parent.Parent.Target
+	local TeleportFrame = script.Parent.Parent.Teleport
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		if AnimationFrame.Visible == true then
+			AnimationFrame.Visible = false
+		end
+		if AutoBuyFrame.Visible == true then
+			AutoBuyFrame.Visible = false
+		end
+		if AutoFarmFrame.Visible == true then
+			AutoFarmFrame.Visible = false
+		end
+		if CreditsFrame.Visible == true then
+			CreditsFrame.Visible = false
+		end
+		if EspFrame.Visible == true then
+			EspFrame.Visible = false
+		end
+		if ExtraStuffFrame.Visible == true then
+			ExtraStuffFrame.Visible = false
+		end
+		if FovFrame.Visible == true then
+			FovFrame.Visible =  false
+		end
+		if FunFrame.Visible == true then
+			FunFrame.Visible = false
+		end
+		if PremiumFrame.Visible == true then
+			PremiumFrame.Visible = false
+		end
+		if SilentAimFrame.Visible == true then
+			SilentAimFrame.Visible = false
+		end
+		if TargetFrame.Visible == true then
+			TargetFrame.Visible = false
+		end
+		if TeleportFrame.Visible == true then
+			TeleportFrame.Visible = false
+		end
+		if AimlockFrame.Visible == false then
+			AimlockFrame.Visible = true
+		end
+	end)
+end
+coroutine.wrap(HQXRPQQ_fake_script)()
+local function MBVZUZ_fake_script() -- OpenSilentAimFrame.LocalScript 
+	local script = Instance.new('LocalScript', OpenSilentAimFrame)
+
+	local AimlockFrame = script.Parent.Parent.Aimlock
+	local AnimationFrame = script.Parent.Parent.Animation
+	local AutoBuyFrame = script.Parent.Parent["AutoBuy "]
+	local AutoFarmFrame = script.Parent.Parent.AutoFarm
+	local CreditsFrame = script.Parent.Parent.Credits
+	local EspFrame = script.Parent.Parent.Esp
+	local ExtraStuffFrame = script.Parent.Parent["Extra Stuff"]
+	local FovFrame = script.Parent.Parent.Fov
+	local FunFrame = script.Parent.Parent.Fun
+	local PremiumFrame = script.Parent.Parent.Premium
+	local SilentAimFrame = script.Parent.Parent["Silent Aim"]
+	local TargetFrame = script.Parent.Parent.Target
+	local TeleportFrame = script.Parent.Parent.Teleport
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		if AnimationFrame.Visible == true then
+			AnimationFrame.Visible = false
+		end
+		if AutoBuyFrame.Visible == true then
+			AutoBuyFrame.Visible = false
+		end
+		if AutoFarmFrame.Visible == true then
+			AutoFarmFrame.Visible = false
+		end
+		if CreditsFrame.Visible == true then
+			CreditsFrame.Visible = false
+		end
+		if EspFrame.Visible == true then
+			EspFrame.Visible = false
+		end
+		if ExtraStuffFrame.Visible == true then
+			ExtraStuffFrame.Visible = false
+		end
+		if FovFrame.Visible == true then
+			FovFrame.Visible =  false
+		end
+		if FunFrame.Visible == true then
+			FunFrame.Visible = false
+		end
+		if PremiumFrame.Visible == true then
+			PremiumFrame.Visible = false
+		end
+		if AimlockFrame.Visible == true then
+			AimlockFrame.Visible = false
+		end
+		if TargetFrame.Visible == true then
+			TargetFrame.Visible = false
+		end
+		if TeleportFrame.Visible == true then
+			TeleportFrame.Visible = false
+		end
+		if SilentAimFrame.Visible == false then
+			SilentAimFrame.Visible = true
+		end
+	end)
+end
+coroutine.wrap(MBVZUZ_fake_script)()
+local function KAOUQZX_fake_script() -- OpenFunFrame.LocalScript 
+	local script = Instance.new('LocalScript', OpenFunFrame)
+
+	local AimlockFrame = script.Parent.Parent.Aimlock
+	local AnimationFrame = script.Parent.Parent.Animation
+	local AutoBuyFrame = script.Parent.Parent["AutoBuy "]
+	local AutoFarmFrame = script.Parent.Parent.AutoFarm
+	local CreditsFrame = script.Parent.Parent.Credits
+	local EspFrame = script.Parent.Parent.Esp
+	local ExtraStuffFrame = script.Parent.Parent["Extra Stuff"]
+	local FovFrame = script.Parent.Parent.Fov
+	local FunFrame = script.Parent.Parent.Fun
+	local PremiumFrame = script.Parent.Parent.Premium
+	local SilentAimFrame = script.Parent.Parent["Silent Aim"]
+	local TargetFrame = script.Parent.Parent.Target
+	local TeleportFrame = script.Parent.Parent.Teleport
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		if AnimationFrame.Visible == true then
+			AnimationFrame.Visible = false
+		end
+		if AutoBuyFrame.Visible == true then
+			AutoBuyFrame.Visible = false
+		end
+		if AutoFarmFrame.Visible == true then
+			AutoFarmFrame.Visible = false
+		end
+		if CreditsFrame.Visible == true then
+			CreditsFrame.Visible = false
+		end
+		if EspFrame.Visible == true then
+			EspFrame.Visible = false
+		end
+		if ExtraStuffFrame.Visible == true then
+			ExtraStuffFrame.Visible = false
+		end
+		if FovFrame.Visible == true then
+			FovFrame.Visible =  false
+		end
+		if AimlockFrame.Visible == true then
+			AimlockFrame.Visible = false
+		end
+		if PremiumFrame.Visible == true then
+			PremiumFrame.Visible = false
+		end
+		if SilentAimFrame.Visible == true then
+			SilentAimFrame.Visible = false
+		end
+		if TargetFrame.Visible == true then
+			TargetFrame.Visible = false
+		end
+		if TeleportFrame.Visible == true then
+			TeleportFrame.Visible = false
+		end
+		if FunFrame.Visible == false then
+			FunFrame.Visible = true
+		end
+	end)
+end
+coroutine.wrap(KAOUQZX_fake_script)()
+local function OPASV_fake_script() -- OpenAutoBuyFrame.LocalScript 
+	local script = Instance.new('LocalScript', OpenAutoBuyFrame)
+
+	local AimlockFrame = script.Parent.Parent.Aimlock
+	local AnimationFrame = script.Parent.Parent.Animation
+	local AutoBuyFrame = script.Parent.Parent["AutoBuy "]
+	local AutoFarmFrame = script.Parent.Parent.AutoFarm
+	local CreditsFrame = script.Parent.Parent.Credits
+	local EspFrame = script.Parent.Parent.Esp
+	local ExtraStuffFrame = script.Parent.Parent["Extra Stuff"]
+	local FovFrame = script.Parent.Parent.Fov
+	local FunFrame = script.Parent.Parent.Fun
+	local PremiumFrame = script.Parent.Parent.Premium
+	local SilentAimFrame = script.Parent.Parent["Silent Aim"]
+	local TargetFrame = script.Parent.Parent.Target
+	local TeleportFrame = script.Parent.Parent.Teleport
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		if AnimationFrame.Visible == true then
+			AnimationFrame.Visible = false
+		end
+		if AimlockFrame.Visible == true then
+			AimlockFrame.Visible = false
+		end
+		if AutoFarmFrame.Visible == true then
+			AutoFarmFrame.Visible = false
+		end
+		if CreditsFrame.Visible == true then
+			CreditsFrame.Visible = false
+		end
+		if EspFrame.Visible == true then
+			EspFrame.Visible = false
+		end
+		if ExtraStuffFrame.Visible == true then
+			ExtraStuffFrame.Visible = false
+		end
+		if FovFrame.Visible == true then
+			FovFrame.Visible =  false
+		end
+		if FunFrame.Visible == true then
+			FunFrame.Visible = false
+		end
+		if PremiumFrame.Visible == true then
+			PremiumFrame.Visible = false
+		end
+		if SilentAimFrame.Visible == true then
+			SilentAimFrame.Visible = false
+		end
+		if TargetFrame.Visible == true then
+			TargetFrame.Visible = false
+		end
+		if TeleportFrame.Visible == true then
+			TeleportFrame.Visible = false
+		end
+		if AutoBuyFrame.Visible == false then
+			AutoBuyFrame.Visible = true
+		end
+	end)
+end
+coroutine.wrap(OPASV_fake_script)()
+local function PXIAI_fake_script() -- OpenAnimationFrame.LocalScript 
+	local script = Instance.new('LocalScript', OpenAnimationFrame)
+
+	local AimlockFrame = script.Parent.Parent.Aimlock
+	local AnimationFrame = script.Parent.Parent.Animation
+	local AutoBuyFrame = script.Parent.Parent["AutoBuy "]
+	local AutoFarmFrame = script.Parent.Parent.AutoFarm
+	local CreditsFrame = script.Parent.Parent.Credits
+	local EspFrame = script.Parent.Parent.Esp
+	local ExtraStuffFrame = script.Parent.Parent["Extra Stuff"]
+	local FovFrame = script.Parent.Parent.Fov
+	local FunFrame = script.Parent.Parent.Fun
+	local PremiumFrame = script.Parent.Parent.Premium
+	local SilentAimFrame = script.Parent.Parent["Silent Aim"]
+	local TargetFrame = script.Parent.Parent.Target
+	local TeleportFrame = script.Parent.Parent.Teleport
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		if AimlockFrame.Visible == true then
+			AimlockFrame.Visible = false
+		end
+		if AutoBuyFrame.Visible == true then
+			AutoBuyFrame.Visible = false
+		end
+		if AutoFarmFrame.Visible == true then
+			AutoFarmFrame.Visible = false
+		end
+		if CreditsFrame.Visible == true then
+			CreditsFrame.Visible = false
+		end
+		if EspFrame.Visible == true then
+			EspFrame.Visible = false
+		end
+		if ExtraStuffFrame.Visible == true then
+			ExtraStuffFrame.Visible = false
+		end
+		if FovFrame.Visible == true then
+			FovFrame.Visible =  false
+		end
+		if FunFrame.Visible == true then
+			FunFrame.Visible = false
+		end
+		if PremiumFrame.Visible == true then
+			PremiumFrame.Visible = false
+		end
+		if SilentAimFrame.Visible == true then
+			SilentAimFrame.Visible = false
+		end
+		if TargetFrame.Visible == true then
+			TargetFrame.Visible = false
+		end
+		if TeleportFrame.Visible == true then
+			TeleportFrame.Visible = false
+		end
+		if AnimationFrame.Visible == false then
+			AnimationFrame.Visible = true
+		end
+	end)
+end
+coroutine.wrap(PXIAI_fake_script)()
+local function AJQR_fake_script() -- OpenTeleportFrame.LocalScript 
+	local script = Instance.new('LocalScript', OpenTeleportFrame)
+
+	local AimlockFrame = script.Parent.Parent.Aimlock
+	local AnimationFrame = script.Parent.Parent.Animation
+	local AutoBuyFrame = script.Parent.Parent["AutoBuy "]
+	local AutoFarmFrame = script.Parent.Parent.AutoFarm
+	local CreditsFrame = script.Parent.Parent.Credits
+	local EspFrame = script.Parent.Parent.Esp
+	local ExtraStuffFrame = script.Parent.Parent["Extra Stuff"]
+	local FovFrame = script.Parent.Parent.Fov
+	local FunFrame = script.Parent.Parent.Fun
+	local PremiumFrame = script.Parent.Parent.Premium
+	local SilentAimFrame = script.Parent.Parent["Silent Aim"]
+	local TargetFrame = script.Parent.Parent.Target
+	local TeleportFrame = script.Parent.Parent.Teleport
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		if AnimationFrame.Visible == true then
+			AnimationFrame.Visible = false
+		end
+		if AutoBuyFrame.Visible == true then
+			AutoBuyFrame.Visible = false
+		end
+		if AutoFarmFrame.Visible == true then
+			AutoFarmFrame.Visible = false
+		end
+		if CreditsFrame.Visible == true then
+			CreditsFrame.Visible = false
+		end
+		if EspFrame.Visible == true then
+			EspFrame.Visible = false
+		end
+		if ExtraStuffFrame.Visible == true then
+			ExtraStuffFrame.Visible = false
+		end
+		if FovFrame.Visible == true then
+			FovFrame.Visible =  false
+		end
+		if FunFrame.Visible == true then
+			FunFrame.Visible = false
+		end
+		if PremiumFrame.Visible == true then
+			PremiumFrame.Visible = false
+		end
+		if SilentAimFrame.Visible == true then
+			SilentAimFrame.Visible = false
+		end
+		if TargetFrame.Visible == true then
+			TargetFrame.Visible = false
+		end
+		if AimlockFrame.Visible == true then
+			AimlockFrame.Visible = false
+		end
+		if TeleportFrame.Visible == false then
+			TeleportFrame.Visible = true
+		end
+	end)
+end
+coroutine.wrap(AJQR_fake_script)()
+local function LMLTI_fake_script() -- OpenTargetFrame.LocalScript 
+	local script = Instance.new('LocalScript', OpenTargetFrame)
+
+	local AimlockFrame = script.Parent.Parent.Aimlock
+	local AnimationFrame = script.Parent.Parent.Animation
+	local AutoBuyFrame = script.Parent.Parent["AutoBuy "]
+	local AutoFarmFrame = script.Parent.Parent.AutoFarm
+	local CreditsFrame = script.Parent.Parent.Credits
+	local EspFrame = script.Parent.Parent.Esp
+	local ExtraStuffFrame = script.Parent.Parent["Extra Stuff"]
+	local FovFrame = script.Parent.Parent.Fov
+	local FunFrame = script.Parent.Parent.Fun
+	local PremiumFrame = script.Parent.Parent.Premium
+	local SilentAimFrame = script.Parent.Parent["Silent Aim"]
+	local TargetFrame = script.Parent.Parent.Target
+	local TeleportFrame = script.Parent.Parent.Teleport
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		if AnimationFrame.Visible == true then
+			AnimationFrame.Visible = false
+		end
+		if AutoBuyFrame.Visible == true then
+			AutoBuyFrame.Visible = false
+		end
+		if AutoFarmFrame.Visible == true then
+			AutoFarmFrame.Visible = false
+		end
+		if CreditsFrame.Visible == true then
+			CreditsFrame.Visible = false
+		end
+		if EspFrame.Visible == true then
+			EspFrame.Visible = false
+		end
+		if ExtraStuffFrame.Visible == true then
+			ExtraStuffFrame.Visible = false
+		end
+		if FovFrame.Visible == true then
+			FovFrame.Visible =  false
+		end
+		if FunFrame.Visible == true then
+			FunFrame.Visible = false
+		end
+		if PremiumFrame.Visible == true then
+			PremiumFrame.Visible = false
+		end
+		if SilentAimFrame.Visible == true then
+			SilentAimFrame.Visible = false
+		end
+		if AimlockFrame.Visible == true then
+			AimlockFrame.Visible = false
+		end
+		if TeleportFrame.Visible == true then
+			TeleportFrame.Visible = false
+		end
+		if TargetFrame.Visible == false then
+			TargetFrame.Visible = true
+		end
+	end)
+end
+coroutine.wrap(LMLTI_fake_script)()
+local function XGMQN_fake_script() -- OpenAutoFarmFrame.LocalScript 
+	local script = Instance.new('LocalScript', OpenAutoFarmFrame)
+
+	local AimlockFrame = script.Parent.Parent.Aimlock
+	local AnimationFrame = script.Parent.Parent.Animation
+	local AutoBuyFrame = script.Parent.Parent["AutoBuy "]
+	local AutoFarmFrame = script.Parent.Parent.AutoFarm
+	local CreditsFrame = script.Parent.Parent.Credits
+	local EspFrame = script.Parent.Parent.Esp
+	local ExtraStuffFrame = script.Parent.Parent["Extra Stuff"]
+	local FovFrame = script.Parent.Parent.Fov
+	local FunFrame = script.Parent.Parent.Fun
+	local PremiumFrame = script.Parent.Parent.Premium
+	local SilentAimFrame = script.Parent.Parent["Silent Aim"]
+	local TargetFrame = script.Parent.Parent.Target
+	local TeleportFrame = script.Parent.Parent.Teleport
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		if AnimationFrame.Visible == true then
+			AnimationFrame.Visible = false
+		end
+		if AutoBuyFrame.Visible == true then
+			AutoBuyFrame.Visible = false
+		end
+		if AimlockFrame.Visible == true then
+			AimlockFrame.Visible = false
+		end
+		if CreditsFrame.Visible == true then
+			CreditsFrame.Visible = false
+		end
+		if EspFrame.Visible == true then
+			EspFrame.Visible = false
+		end
+		if ExtraStuffFrame.Visible == true then
+			ExtraStuffFrame.Visible = false
+		end
+		if FovFrame.Visible == true then
+			FovFrame.Visible =  false
+		end
+		if FunFrame.Visible == true then
+			FunFrame.Visible = false
+		end
+		if PremiumFrame.Visible == true then
+			PremiumFrame.Visible = false
+		end
+		if SilentAimFrame.Visible == true then
+			SilentAimFrame.Visible = false
+		end
+		if TargetFrame.Visible == true then
+			TargetFrame.Visible = false
+		end
+		if TeleportFrame.Visible == true then
+			TeleportFrame.Visible = false
+		end
+		if AutoFarmFrame.Visible == false then
+			AutoFarmFrame.Visible = true
+		end
+	end)
+end
+coroutine.wrap(XGMQN_fake_script)()
+local function PJNOOGC_fake_script() -- OpenPremiumFrame.LocalScript 
+	local script = Instance.new('LocalScript', OpenPremiumFrame)
+
+	local AimlockFrame = script.Parent.Parent.Aimlock
+	local AnimationFrame = script.Parent.Parent.Animation
+	local AutoBuyFrame = script.Parent.Parent["AutoBuy "]
+	local AutoFarmFrame = script.Parent.Parent.AutoFarm
+	local CreditsFrame = script.Parent.Parent.Credits
+	local EspFrame = script.Parent.Parent.Esp
+	local ExtraStuffFrame = script.Parent.Parent["Extra Stuff"]
+	local FovFrame = script.Parent.Parent.Fov
+	local FunFrame = script.Parent.Parent.Fun
+	local PremiumFrame = script.Parent.Parent.Premium
+	local SilentAimFrame = script.Parent.Parent["Silent Aim"]
+	local TargetFrame = script.Parent.Parent.Target
+	local TeleportFrame = script.Parent.Parent.Teleport
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		if AnimationFrame.Visible == true then
+			AnimationFrame.Visible = false
+		end
+		if AutoBuyFrame.Visible == true then
+			AutoBuyFrame.Visible = false
+		end
+		if AutoFarmFrame.Visible == true then
+			AutoFarmFrame.Visible = false
+		end
+		if CreditsFrame.Visible == true then
+			CreditsFrame.Visible = false
+		end
+		if EspFrame.Visible == true then
+			EspFrame.Visible = false
+		end
+		if ExtraStuffFrame.Visible == true then
+			ExtraStuffFrame.Visible = false
+		end
+		if FovFrame.Visible == true then
+			FovFrame.Visible =  false
+		end
+		if FunFrame.Visible == true then
+			FunFrame.Visible = false
+		end
+		if AimlockFrame.Visible == true then
+			AimlockFrame.Visible = false
+		end
+		if SilentAimFrame.Visible == true then
+			SilentAimFrame.Visible = false
+		end
+		if TargetFrame.Visible == true then
+			TargetFrame.Visible = false
+		end
+		if TeleportFrame.Visible == true then
+			TeleportFrame.Visible = false
+		end
+		if PremiumFrame.Visible == false then
+			PremiumFrame.Visible = true
+		end
+	end)
+end
+coroutine.wrap(PJNOOGC_fake_script)()
+local function VDNLDIO_fake_script() -- OpenExtraStuffFrame.LocalScript 
+	local script = Instance.new('LocalScript', OpenExtraStuffFrame)
+
+	local AimlockFrame = script.Parent.Parent.Aimlock
+	local AnimationFrame = script.Parent.Parent.Animation
+	local AutoBuyFrame = script.Parent.Parent["AutoBuy "]
+	local AutoFarmFrame = script.Parent.Parent.AutoFarm
+	local CreditsFrame = script.Parent.Parent.Credits
+	local EspFrame = script.Parent.Parent.Esp
+	local ExtraStuffFrame = script.Parent.Parent["Extra Stuff"]
+	local FovFrame = script.Parent.Parent.Fov
+	local FunFrame = script.Parent.Parent.Fun
+	local PremiumFrame = script.Parent.Parent.Premium
+	local SilentAimFrame = script.Parent.Parent["Silent Aim"]
+	local TargetFrame = script.Parent.Parent.Target
+	local TeleportFrame = script.Parent.Parent.Teleport
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		if AnimationFrame.Visible == true then
+			AnimationFrame.Visible = false
+		end
+		if AutoBuyFrame.Visible == true then
+			AutoBuyFrame.Visible = false
+		end
+		if AutoFarmFrame.Visible == true then
+			AutoFarmFrame.Visible = false
+		end
+		if CreditsFrame.Visible == true then
+			CreditsFrame.Visible = false
+		end
+		if EspFrame.Visible == true then
+			EspFrame.Visible = false
+		end
+		if AimlockFrame.Visible == true then
+			AimlockFrame.Visible = false
+		end
+		if FovFrame.Visible == true then
+			FovFrame.Visible =  false
+		end
+		if FunFrame.Visible == true then
+			FunFrame.Visible = false
+		end
+		if PremiumFrame.Visible == true then
+			PremiumFrame.Visible = false
+		end
+		if SilentAimFrame.Visible == true then
+			SilentAimFrame.Visible = false
+		end
+		if TargetFrame.Visible == true then
+			TargetFrame.Visible = false
+		end
+		if TeleportFrame.Visible == true then
+			TeleportFrame.Visible = false
+		end
+		if ExtraStuffFrame.Visible == false then
+			ExtraStuffFrame.Visible = true
+		end
+	end)
+end
+coroutine.wrap(VDNLDIO_fake_script)()
+local function BXQY_fake_script() -- OpenEspFrame.LocalScript 
+	local script = Instance.new('LocalScript', OpenEspFrame)
+
+	local AimlockFrame = script.Parent.Parent.Aimlock
+	local AnimationFrame = script.Parent.Parent.Animation
+	local AutoBuyFrame = script.Parent.Parent["AutoBuy "]
+	local AutoFarmFrame = script.Parent.Parent.AutoFarm
+	local CreditsFrame = script.Parent.Parent.Credits
+	local EspFrame = script.Parent.Parent.Esp
+	local ExtraStuffFrame = script.Parent.Parent["Extra Stuff"]
+	local FovFrame = script.Parent.Parent.Fov
+	local FunFrame = script.Parent.Parent.Fun
+	local PremiumFrame = script.Parent.Parent.Premium
+	local SilentAimFrame = script.Parent.Parent["Silent Aim"]
+	local TargetFrame = script.Parent.Parent.Target
+	local TeleportFrame = script.Parent.Parent.Teleport
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		if AnimationFrame.Visible == true then
+			AnimationFrame.Visible = false
+		end
+		if AutoBuyFrame.Visible == true then
+			AutoBuyFrame.Visible = false
+		end
+		if AutoFarmFrame.Visible == true then
+			AutoFarmFrame.Visible = false
+		end
+		if CreditsFrame.Visible == true then
+			CreditsFrame.Visible = false
+		end
+		if AimlockFrame.Visible == true then
+			AimlockFrame.Visible = false
+		end
+		if ExtraStuffFrame.Visible == true then
+			ExtraStuffFrame.Visible = false
+		end
+		if FovFrame.Visible == true then
+			FovFrame.Visible =  false
+		end
+		if FunFrame.Visible == true then
+			FunFrame.Visible = false
+		end
+		if PremiumFrame.Visible == true then
+			PremiumFrame.Visible = false
+		end
+		if SilentAimFrame.Visible == true then
+			SilentAimFrame.Visible = false
+		end
+		if TargetFrame.Visible == true then
+			TargetFrame.Visible = false
+		end
+		if TeleportFrame.Visible == true then
+			TeleportFrame.Visible = false
+		end
+		if EspFrame.Visible == false then
+			EspFrame.Visible = true
+		end
+	end)
+end
+coroutine.wrap(BXQY_fake_script)()
+local function XJRQZMV_fake_script() -- OpenFovFrame.LocalScript 
+	local script = Instance.new('LocalScript', OpenFovFrame)
+
+	local AimlockFrame = script.Parent.Parent.Aimlock
+	local AnimationFrame = script.Parent.Parent.Animation
+	local AutoBuyFrame = script.Parent.Parent["AutoBuy "]
+	local AutoFarmFrame = script.Parent.Parent.AutoFarm
+	local CreditsFrame = script.Parent.Parent.Credits
+	local EspFrame = script.Parent.Parent.Esp
+	local ExtraStuffFrame = script.Parent.Parent["Extra Stuff"]
+	local FovFrame = script.Parent.Parent.Fov
+	local FunFrame = script.Parent.Parent.Fun
+	local PremiumFrame = script.Parent.Parent.Premium
+	local SilentAimFrame = script.Parent.Parent["Silent Aim"]
+	local TargetFrame = script.Parent.Parent.Target
+	local TeleportFrame = script.Parent.Parent.Teleport
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		if AnimationFrame.Visible == true then
+			AnimationFrame.Visible = false
+		end
+		if AutoBuyFrame.Visible == true then
+			AutoBuyFrame.Visible = false
+		end
+		if AutoFarmFrame.Visible == true then
+			AutoFarmFrame.Visible = false
+		end
+		if CreditsFrame.Visible == true then
+			CreditsFrame.Visible = false
+		end
+		if EspFrame.Visible == true then
+			EspFrame.Visible = false
+		end
+		if ExtraStuffFrame.Visible == true then
+			ExtraStuffFrame.Visible = false
+		end
+		if AimlockFrame.Visible == true then
+			AimlockFrame.Visible =  false
+		end
+		if FunFrame.Visible == true then
+			FunFrame.Visible = false
+		end
+		if PremiumFrame.Visible == true then
+			PremiumFrame.Visible = false
+		end
+		if SilentAimFrame.Visible == true then
+			SilentAimFrame.Visible = false
+		end
+		if TargetFrame.Visible == true then
+			TargetFrame.Visible = false
+		end
+		if TeleportFrame.Visible == true then
+			TeleportFrame.Visible = false
+		end
+		if FovFrame.Visible == false then
+			FovFrame.Visible = true
+		end
+	end)
+end
+coroutine.wrap(XJRQZMV_fake_script)()
+local function ENVQSWF_fake_script() -- OpenCreditsFrame.LocalScript 
+	local script = Instance.new('LocalScript', OpenCreditsFrame)
+
+	local AimlockFrame = script.Parent.Parent.Aimlock
+	local AnimationFrame = script.Parent.Parent.Animation
+	local AutoBuyFrame = script.Parent.Parent["AutoBuy "]
+	local AutoFarmFrame = script.Parent.Parent.AutoFarm
+	local CreditsFrame = script.Parent.Parent.Credits
+	local EspFrame = script.Parent.Parent.Esp
+	local ExtraStuffFrame = script.Parent.Parent["Extra Stuff"]
+	local FovFrame = script.Parent.Parent.Fov
+	local FunFrame = script.Parent.Parent.Fun
+	local PremiumFrame = script.Parent.Parent.Premium
+	local SilentAimFrame = script.Parent.Parent["Silent Aim"]
+	local TargetFrame = script.Parent.Parent.Target
+	local TeleportFrame = script.Parent.Parent.Teleport
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		if AnimationFrame.Visible == true then
+			AnimationFrame.Visible = false
+		end
+		if AutoBuyFrame.Visible == true then
+			AutoBuyFrame.Visible = false
+		end
+		if AutoFarmFrame.Visible == true then
+			AutoFarmFrame.Visible = false
+		end
+		if AimlockFrame.Visible == true then
+			AimlockFrame.Visible = false
+		end
+		if EspFrame.Visible == true then
+			EspFrame.Visible = false
+		end
+		if ExtraStuffFrame.Visible == true then
+			ExtraStuffFrame.Visible = false
+		end
+		if FovFrame.Visible == true then
+			FovFrame.Visible =  false
+		end
+		if FunFrame.Visible == true then
+			FunFrame.Visible = false
+		end
+		if PremiumFrame.Visible == true then
+			PremiumFrame.Visible = false
+		end
+		if SilentAimFrame.Visible == true then
+			SilentAimFrame.Visible = false
+		end
+		if TargetFrame.Visible == true then
+			TargetFrame.Visible = false
+		end
+		if TeleportFrame.Visible == true then
+			TeleportFrame.Visible = false
+		end
+		if CreditsFrame.Visible == false then
+			CreditsFrame.Visible = true
+		end
+	end)
+end
+coroutine.wrap(ENVQSWF_fake_script)()
+local function CYKPG_fake_script() -- Frame.Dragify 
+	local script = Instance.new('LocalScript', Frame)
+
+	local UIS = game:GetService("UserInputService")
+	function dragify(Frame)
+	    dragToggle = nil
+	    local dragSpeed = 0
+	    dragInput = nil
+	    dragStart = nil
+	    local dragPos = nil
+	    function updateInput(input)
+	        local Delta = input.Position - dragStart
+	        local Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + Delta.X, startPos.Y.Scale, startPos.Y.Offset + Delta.Y)
+	        game:GetService("TweenService"):Create(Frame, TweenInfo.new(0.25), {Position = Position}):Play()
+	    end
+	    Frame.InputBegan:Connect(function(input)
+	        if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) and UIS:GetFocusedTextBox() == nil then
+	            dragToggle = true
+	            dragStart = input.Position
+	            startPos = Frame.Position
+	            input.Changed:Connect(function()
+	                if input.UserInputState == Enum.UserInputState.End then
+	                    dragToggle = false
+	                end
+	            end)
+	        end
+	    end)
+	    Frame.InputChanged:Connect(function(input)
+	        if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+	            dragInput = input
+	        end
+	    end)
+	    game:GetService("UserInputService").InputChanged:Connect(function(input)
+	        if input == dragInput and dragToggle then
+	            updateInput(input)
+	        end
+	    end)
+	end
+	
+	dragify(script.Parent)
+end
+coroutine.wrap(CYKPG_fake_script)()
+local function ZNXCW_fake_script() -- TextButton_84.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_84)
+
+	Frame = script.Parent.Parent.Frame
+	script.Parent.MouseButton1Click:Connect(function()
+		Frame.Visible = not Frame.Visible
+	end)
+	
+	local Frame = game.StarterGui.ScreenGui.Frame.Visible
+	if Frame == true then
+	
+		script.Parent.MouseButton1Click:Connect(function()
+			Frame = false
+		end)
+	
+	end
+	if Frame == false then
+	
+		script.Parent.MouseButton1Click:Connect(function()
+			Frame = true
+		end)
+	
+	end
+	
+end
+coroutine.wrap(ZNXCW_fake_script)()
